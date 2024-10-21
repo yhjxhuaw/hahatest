@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0203EA9B2CC683DB002F0EEB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203EA9A2CC683DB002F0EEB /* RootView.swift */; };
+		0203EA9D2CC68CDF002F0EEB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203EA9C2CC68CDF002F0EEB /* SettingsView.swift */; };
+		0213187F2CC50E7800B1ACA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0213187E2CC50E7800B1ACA8 /* GoogleService-Info.plist */; };
+		021318822CC5140500B1ACA8 /* authentificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021318812CC5140500B1ACA8 /* authentificationView.swift */; };
+		021318842CC517FA00B1ACA8 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021318832CC517FA00B1ACA8 /* SignInEmailView.swift */; };
 		0274D0B12C9EA7DB001E4DC4 /* hahatestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274D0B02C9EA7DB001E4DC4 /* hahatestApp.swift */; };
-		0274D0B32C9EA7DB001E4DC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274D0B22C9EA7DB001E4DC4 /* ContentView.swift */; };
 		0274D0B52C9EA7DB001E4DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0274D0B42C9EA7DB001E4DC4 /* Assets.xcassets */; };
 		0274D0B92C9EA7DB001E4DC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0274D0B82C9EA7DB001E4DC4 /* Preview Assets.xcassets */; };
 		0274D0C32C9EA7DB001E4DC4 /* hahatestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274D0C22C9EA7DB001E4DC4 /* hahatestTests.swift */; };
 		0274D0CD2C9EA7DB001E4DC4 /* hahatestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274D0CC2C9EA7DB001E4DC4 /* hahatestUITests.swift */; };
 		0274D0CF2C9EA7DB001E4DC4 /* hahatestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274D0CE2C9EA7DB001E4DC4 /* hahatestUITestsLaunchTests.swift */; };
+		02AD60202CC54EF900109130 /* AutheticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AD601F2CC54EF900109130 /* AutheticationManager.swift */; };
+		02CBD52D2CC3A8E600FB652E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 02CBD52C2CC3A8E600FB652E /* FirebaseAnalytics */; };
+		02CBD52F2CC3A8E600FB652E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 02CBD52E2CC3A8E600FB652E /* FirebaseAnalyticsSwift */; };
+		02CBD5312CC3A8E600FB652E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 02CBD5302CC3A8E600FB652E /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0203EA9A2CC683DB002F0EEB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		0203EA9C2CC68CDF002F0EEB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0213187E2CC50E7800B1ACA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		021318812CC5140500B1ACA8 /* authentificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authentificationView.swift; sourceTree = "<group>"; };
+		021318832CC517FA00B1ACA8 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		021318852CC540D800B1ACA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Preview Content/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0274D0AD2C9EA7DB001E4DC4 /* hahatest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hahatest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0274D0B02C9EA7DB001E4DC4 /* hahatestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahatestApp.swift; sourceTree = "<group>"; };
-		0274D0B22C9EA7DB001E4DC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0274D0B42C9EA7DB001E4DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0274D0B62C9EA7DB001E4DC4 /* hahatest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hahatest.entitlements; sourceTree = "<group>"; };
 		0274D0B82C9EA7DB001E4DC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +58,7 @@
 		0274D0C82C9EA7DB001E4DC4 /* hahatestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hahatestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0274D0CC2C9EA7DB001E4DC4 /* hahatestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahatestUITests.swift; sourceTree = "<group>"; };
 		0274D0CE2C9EA7DB001E4DC4 /* hahatestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahatestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02AD601F2CC54EF900109130 /* AutheticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutheticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CBD52F2CC3A8E600FB652E /* FirebaseAnalyticsSwift in Frameworks */,
+				02CBD5312CC3A8E600FB652E /* FirebaseAuth in Frameworks */,
+				02CBD52D2CC3A8E600FB652E /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021318802CC513E000B1ACA8 /* authentification */ = {
+			isa = PBXGroup;
+			children = (
+				021318812CC5140500B1ACA8 /* authentificationView.swift */,
+				021318832CC517FA00B1ACA8 /* SignInEmailView.swift */,
+				02AD601F2CC54EF900109130 /* AutheticationManager.swift */,
+				0203EA9A2CC683DB002F0EEB /* RootView.swift */,
+				0203EA9C2CC68CDF002F0EEB /* SettingsView.swift */,
+			);
+			path = authentification;
+			sourceTree = "<group>";
+		};
 		0274D0A42C9EA7DB001E4DC4 = {
 			isa = PBXGroup;
 			children = (
@@ -96,9 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				0274D0B02C9EA7DB001E4DC4 /* hahatestApp.swift */,
-				0274D0B22C9EA7DB001E4DC4 /* ContentView.swift */,
+				021318802CC513E000B1ACA8 /* authentification */,
+				0213187E2CC50E7800B1ACA8 /* GoogleService-Info.plist */,
 				0274D0B42C9EA7DB001E4DC4 /* Assets.xcassets */,
 				0274D0B62C9EA7DB001E4DC4 /* hahatest.entitlements */,
+				021318852CC540D800B1ACA8 /* GoogleService-Info.plist */,
 				0274D0B72C9EA7DB001E4DC4 /* Preview Content */,
 			);
 			path = hahatest;
@@ -145,6 +176,11 @@
 			dependencies = (
 			);
 			name = hahatest;
+			packageProductDependencies = (
+				02CBD52C2CC3A8E600FB652E /* FirebaseAnalytics */,
+				02CBD52E2CC3A8E600FB652E /* FirebaseAnalyticsSwift */,
+				02CBD5302CC3A8E600FB652E /* FirebaseAuth */,
+			);
 			productName = hahatest;
 			productReference = 0274D0AD2C9EA7DB001E4DC4 /* hahatest.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +253,9 @@
 				Base,
 			);
 			mainGroup = 0274D0A42C9EA7DB001E4DC4;
+			packageReferences = (
+				02CBD52B2CC3A4B900FB652E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 0274D0AE2C9EA7DB001E4DC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +274,7 @@
 			files = (
 				0274D0B92C9EA7DB001E4DC4 /* Preview Assets.xcassets in Resources */,
 				0274D0B52C9EA7DB001E4DC4 /* Assets.xcassets in Resources */,
+				0213187F2CC50E7800B1ACA8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0274D0B32C9EA7DB001E4DC4 /* ContentView.swift in Sources */,
+				021318822CC5140500B1ACA8 /* authentificationView.swift in Sources */,
 				0274D0B12C9EA7DB001E4DC4 /* hahatestApp.swift in Sources */,
+				02AD60202CC54EF900109130 /* AutheticationManager.swift in Sources */,
+				0203EA9D2CC68CDF002F0EEB /* SettingsView.swift in Sources */,
+				021318842CC517FA00B1ACA8 /* SignInEmailView.swift in Sources */,
+				0203EA9B2CC683DB002F0EEB /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,12 +458,15 @@
 		0274D0D32C9EA7DB001E4DC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = hahatest/hahatest.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hahatest/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -439,8 +486,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hahatest.hahatest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx14.5;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +499,15 @@
 		0274D0D42C9EA7DB001E4DC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = hahatest/hahatest.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hahatest/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -475,8 +527,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hahatest.hahatest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx14.5;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -609,6 +663,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02CBD52B2CC3A4B900FB652E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02CBD52C2CC3A8E600FB652E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02CBD52B2CC3A4B900FB652E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		02CBD52E2CC3A8E600FB652E /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02CBD52B2CC3A4B900FB652E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		02CBD5302CC3A8E600FB652E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02CBD52B2CC3A4B900FB652E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0274D0A52C9EA7DB001E4DC4 /* Project object */;
 }
