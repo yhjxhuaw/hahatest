@@ -9,7 +9,9 @@ import SwiftUI
 
 struct authentificationView: View {
     
+
     @Binding var showSignInView: Bool
+    
     var body: some View {
         VStack {
             
@@ -25,6 +27,7 @@ struct authentificationView: View {
                     .cornerRadius(10)
                 
             }
+            
             Spacer()
         }
         .padding()
