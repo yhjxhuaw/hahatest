@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		0203EA9B2CC683DB002F0EEB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203EA9A2CC683DB002F0EEB /* RootView.swift */; };
 		0203EA9D2CC68CDF002F0EEB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203EA9C2CC68CDF002F0EEB /* SettingsView.swift */; };
+		02102AB62CCE4994000429E7 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02102AB52CCE4993000429E7 /* GoogleService-Info-2.plist */; };
+		02102AB72CCE4994000429E7 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02102AB52CCE4993000429E7 /* GoogleService-Info-2.plist */; };
+		02102AB82CCE4994000429E7 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02102AB52CCE4993000429E7 /* GoogleService-Info-2.plist */; };
+		02102ABB2CCE5081000429E7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 02102ABA2CCE5081000429E7 /* GoogleSignIn */; };
+		02102ABD2CCE5081000429E7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 02102ABC2CCE5081000429E7 /* GoogleSignInSwift */; };
+		02102AC32CCE5E22000429E7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02102AC22CCE5E22000429E7 /* Utilities.swift */; };
 		0213187F2CC50E7800B1ACA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0213187E2CC50E7800B1ACA8 /* GoogleService-Info.plist */; };
 		021318822CC5140500B1ACA8 /* authentificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021318812CC5140500B1ACA8 /* authentificationView.swift */; };
 		021318842CC517FA00B1ACA8 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021318832CC517FA00B1ACA8 /* SignInEmailView.swift */; };
@@ -44,7 +50,10 @@
 /* Begin PBXFileReference section */
 		0203EA9A2CC683DB002F0EEB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		0203EA9C2CC68CDF002F0EEB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		0213187E2CC50E7800B1ACA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		02102AB52CCE4993000429E7 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		02102ABE2CCE5827000429E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		02102AC22CCE5E22000429E7 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0213187E2CC50E7800B1ACA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		021318812CC5140500B1ACA8 /* authentificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authentificationView.swift; sourceTree = "<group>"; };
 		021318832CC517FA00B1ACA8 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		021318852CC540D800B1ACA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Preview Content/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -66,7 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02102ABD2CCE5081000429E7 /* GoogleSignInSwift in Frameworks */,
 				02CBD52F2CC3A8E600FB652E /* FirebaseAnalyticsSwift in Frameworks */,
+				02102ABB2CCE5081000429E7 /* GoogleSignIn in Frameworks */,
 				02CBD5312CC3A8E600FB652E /* FirebaseAuth in Frameworks */,
 				02CBD52D2CC3A8E600FB652E /* FirebaseAnalytics in Frameworks */,
 			);
@@ -89,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02102ABF2CCE5DD2000429E7 /* utitlities */ = {
+			isa = PBXGroup;
+			children = (
+				02102AC22CCE5E22000429E7 /* Utilities.swift */,
+			);
+			path = utitlities;
+			sourceTree = "<group>";
+		};
 		021318802CC513E000B1ACA8 /* authentification */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +116,8 @@
 				02AD601F2CC54EF900109130 /* AutheticationManager.swift */,
 				0203EA9A2CC683DB002F0EEB /* RootView.swift */,
 				0203EA9C2CC68CDF002F0EEB /* SettingsView.swift */,
+				02102AB52CCE4993000429E7 /* GoogleService-Info-2.plist */,
+				0213187E2CC50E7800B1ACA8 /* GoogleService-Info.plist */,
 			);
 			path = authentification;
 			sourceTree = "<group>";
@@ -124,9 +145,10 @@
 		0274D0AF2C9EA7DB001E4DC4 /* hahatest */ = {
 			isa = PBXGroup;
 			children = (
+				02102ABE2CCE5827000429E7 /* Info.plist */,
 				0274D0B02C9EA7DB001E4DC4 /* hahatestApp.swift */,
+				02102ABF2CCE5DD2000429E7 /* utitlities */,
 				021318802CC513E000B1ACA8 /* authentification */,
-				0213187E2CC50E7800B1ACA8 /* GoogleService-Info.plist */,
 				0274D0B42C9EA7DB001E4DC4 /* Assets.xcassets */,
 				0274D0B62C9EA7DB001E4DC4 /* hahatest.entitlements */,
 				021318852CC540D800B1ACA8 /* GoogleService-Info.plist */,
@@ -180,6 +202,8 @@
 				02CBD52C2CC3A8E600FB652E /* FirebaseAnalytics */,
 				02CBD52E2CC3A8E600FB652E /* FirebaseAnalyticsSwift */,
 				02CBD5302CC3A8E600FB652E /* FirebaseAuth */,
+				02102ABA2CCE5081000429E7 /* GoogleSignIn */,
+				02102ABC2CCE5081000429E7 /* GoogleSignInSwift */,
 			);
 			productName = hahatest;
 			productReference = 0274D0AD2C9EA7DB001E4DC4 /* hahatest.app */;
@@ -255,6 +279,7 @@
 			mainGroup = 0274D0A42C9EA7DB001E4DC4;
 			packageReferences = (
 				02CBD52B2CC3A4B900FB652E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				02102AB92CCE5081000429E7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = 0274D0AE2C9EA7DB001E4DC4 /* Products */;
 			projectDirPath = "";
@@ -274,6 +299,7 @@
 			files = (
 				0274D0B92C9EA7DB001E4DC4 /* Preview Assets.xcassets in Resources */,
 				0274D0B52C9EA7DB001E4DC4 /* Assets.xcassets in Resources */,
+				02102AB82CCE4994000429E7 /* GoogleService-Info-2.plist in Resources */,
 				0213187F2CC50E7800B1ACA8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02102AB72CCE4994000429E7 /* GoogleService-Info-2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02102AB62CCE4994000429E7 /* GoogleService-Info-2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +329,7 @@
 			files = (
 				021318822CC5140500B1ACA8 /* authentificationView.swift in Sources */,
 				0274D0B12C9EA7DB001E4DC4 /* hahatestApp.swift in Sources */,
+				02102AC32CCE5E22000429E7 /* Utilities.swift in Sources */,
 				02AD60202CC54EF900109130 /* AutheticationManager.swift in Sources */,
 				0203EA9D2CC68CDF002F0EEB /* SettingsView.swift in Sources */,
 				021318842CC517FA00B1ACA8 /* SignInEmailView.swift in Sources */,
@@ -469,12 +498,17 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hahatest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -487,7 +521,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hahatest.hahatest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx14.5;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -510,12 +544,17 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hahatest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -528,7 +567,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hahatest.hahatest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx14.5;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -544,6 +583,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LT4YP3GA;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -566,6 +606,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LT4YP3GA;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -585,14 +626,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LT4YP3GA;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hahatest.hahatestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -606,14 +651,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LT4YP3GA;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hahatest.hahatestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -665,6 +714,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		02102AB92CCE5081000429E7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 		02CBD52B2CC3A4B900FB652E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -676,6 +733,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		02102ABA2CCE5081000429E7 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02102AB92CCE5081000429E7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		02102ABC2CCE5081000429E7 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02102AB92CCE5081000429E7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
 		02CBD52C2CC3A8E600FB652E /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 02CBD52B2CC3A4B900FB652E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

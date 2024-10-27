@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+
+
+
 @MainActor
 final class SignInEmailViewModel: ObservableObject {
     
@@ -34,6 +37,13 @@ final class SignInEmailViewModel: ObservableObject {
     }
 }
         
+
+
+
+
+    
+    
+    
 
     
 struct SignInEmailView: View {
@@ -80,14 +90,17 @@ struct SignInEmailView: View {
                     
                 }
                 
+                
+                
                 Spacer()
                 
                 
+            
                 
-                
-                
-                    .navigationTitle("Sign In With Email")
+                  
             }
+            .padding()
+            .navigationTitle("Sign In with Email")
         }
         
         
